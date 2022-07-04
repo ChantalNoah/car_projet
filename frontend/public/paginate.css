@@ -1,0 +1,33 @@
+.navigationButtons {
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 40px;
+}
+  
+.navigationButtons a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  /* border: 1px solid #9c35b2; */
+  color: #9c35b2;
+  cursor: pointer;
+}
+  
+.navigationButtons a:hover {
+  color: white;
+  background-color: #9c35b2;
+}
+  
+.navigationActive a {
+  color: white;
+  background-color: #9c35b2;
+}
+  
+.navigationDisabled a {
+  color: grey;
+  background-color: grey;
+}
